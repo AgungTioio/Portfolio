@@ -1,0 +1,91 @@
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Navigasi */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+/* Bagian Tentang */
+#about {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+/* Bagian Portofolio */
+#portfolio {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project-details {
+    flex: 1;
+    padding: 1.5rem;
+    text-align: left;
+}
+
+/* Bagian Kontak */
+#contact {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 4rem 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 1rem 0;
+}
